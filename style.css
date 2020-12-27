@@ -1,0 +1,109 @@
+body {
+  background: aquamarine;
+  margin: 25px;
+}
+p {
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: crimson;
+  color:darkblue;
+}
+
+.intro{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style:wavy;
+  text-decoration-color: crimson;
+  color:blueviolet;
+}
+
+.special{
+  font-size: 20px;
+  font-weight:bold;
+  text-decoration: overline;
+}
+
+h2{
+  text-decoration: overline;
+}
+marquee{
+  text-decoration: underline;
+  font-size:20px;
+}
+hr {
+  border-top: 5px solid blueviolet;
+}
+img{
+  float:right;
+  width:200px;
+  height:150px;
+  border-radius:50px;
+}
+.topnav {
+  background-color: #00008B;
+  overflow: hidden;
+  border-radius: 5px 5px ;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fffcfc;
+  text-align: center;
+  padding: 8px 7.25px;
+  text-decoration: none;
+  font-size: 12.25px;
+  font-family: cursive;
+  font-stretch:ultra-expanded;
+  font-style: oblique;
+  font-weight: 750;
+  border-radius: 10px 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lime;
+  color: white;
+}
+.notes{
+  width: 100px;
+  height:100px;
+  float: right;
+  border-radius:30px;
+}
+.seperate{
+  width:250px;
+  height:100px;
+  float:left;
+}
+.align{
+	text-align:left;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align:center;
+  float:center;
+  table-layout: fixed;
+  margin-left:auto;
+  margin-right:auto;
+}
+div { 
+text-align: center; 
+float:center;
+}
+ul { 
+display: inline-block; 
+text-align: left; 
+font-size:18px;
+}
